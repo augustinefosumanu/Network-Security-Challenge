@@ -1,10 +1,10 @@
 # Network Security Challenge: Investigating Anomalies at RockStar Corp
 
-<h1> Overview <h1> 
+<h1> Overview </h1> 
 
 In this lab, I conducted an in-depth investigation into unusual network behavior reported in RockStar Corp's Hollywood office. My analysis included identifying active network assets, performing vulnerability scans, executing penetration tests, and conducting forensic analysis. Through network reconnaissance, I discovered responsive IPs, analyzed open ports, and tested authentication mechanisms. Additionally, I examined DNS anomalies affecting access to rollingstone.com, analyzed packet captures for suspicious activity, and investigated unauthorized system modifications. </br>
 
-<h2>Technical Skills:<h2> 
+<h2>Technical Skills:</h2>
 
 ✅ Network security (scanning, reconnaissance, and access control) </br>
 ✅ Ethical hacking & penetration testing (port scanning, authentication testing) </br>
@@ -12,7 +12,7 @@ In this lab, I conducted an in-depth investigation into unusual network behavior
 ✅ Incident response (modification tracking, firewall investigation) </br>
 ✅ System administration & hardening (config file auditing, SSH security) </br>
 
-<h2> Network Reconnaissance <h2> 
+<h2> Network Reconnaissance </h2> 
 I used the <b>ping</b> command to check which IPs from the provided list were responsive.
 <br />
 <br />
@@ -21,7 +21,7 @@ I used the <b>ping</b> command to check which IPs from the provided list were re
 <br />
 <br />
 
-<h2> Identifying Open Ports <h2> 
+<h2> Identifying Open Ports </h2> 
 I ran an Nmap SYN scan to find out the state of ports hosts within the Hollywood office’s responsive IP address.
 <br />
 <br />
@@ -30,7 +30,7 @@ I ran an Nmap SYN scan to find out the state of ports hosts within the Hollywood
 <br />
 <br />
 
-<h2> Gaining Access <h2> 
+<h2> Gaining Access </h2> 
 After discovering that port 22 was open, I accessed the server using SSH with the employee's username and password.
 <br />
 <br />
@@ -39,7 +39,7 @@ After discovering that port 22 was open, I accessed the server using SSH with th
 <br />
 <br />
 
-<h2> DNS and Spoofing Investigation <h2> 
+<h2> DNS and Spoofing Investigation </h2> 
 To determine why the company couldn't access rollingstone.com, I examined the hosts file to check for any tampering with a spoofed IP address.
 <br />
 <br />
@@ -52,7 +52,7 @@ To determine why the company couldn't access rollingstone.com, I examined the ho
 <br />
 <br />
 
-<h2> Analyzing Packet Captures <h2> 
+<h2> Analyzing Packet Captures </h2> 
 In this step, I analyzed network traffic to detect suspicious activity that could indicate a security breach.
 <br />
 <br />
