@@ -1,4 +1,4 @@
-# Network Security Design & DNS Spoofing Simulation
+# Network Security Challenge: Investigating Anomalies at RockStar Corp
 
 This lab demonstrates key network security design and threat mitigation techniques in a corporate environment. As a security analyst at Acme Corp, the goal is to ensure a secure and efficient network setup for a new office while protecting critical assets from potential cyber threats. </br>
 
